@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.header:hover {
+    height: 40vw;
+
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: white;
+    font-weight: 200;
+    transition: 1s;
+}
+
+.header h1:hover {
+    transform: scale(200%);
+}
+
+.header span {
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: #26ffcb;
+    font-weight: 200;
+    transition: 1s;
+}
+
+.header span:hover {
+    transform: scale(200%);
+}
